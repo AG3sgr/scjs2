@@ -6,78 +6,57 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          Welcome to 
+          <code className={styles.code}> Super Cleaner Janitorial Services</code>
         </p>
       </div>
 
       <div className={styles.center}>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <span>+</span>
-        <Image
-          src="/amplify.svg"
-          alt="Amplify Logo"
-          width={45}
-          height={37}
+          src="/scjs_logo.png"
+          alt="SCJS Logo"
+          width={200}
+          height={200}
           priority
         />
       </div>
 
       <div className={styles.grid}>
         <a
-          href="https://docs.amplify.aws/gen2/"
+          href="https://scjs.us/about"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            About SCJS<span>-&gt;</span>
           </h2>
-          <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
+          <p>Learn more about our organization.</p>
         </a>
 
         <a
-          href="https://docs.amplify.aws/gen2/start/quickstart/"
+          href="https://scjs.us/services"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Quickstart <span>-&gt;</span>
+            Our Services <span>-&gt;</span>
           </h2>
-          <p>Follow a tutorial to build a fullstack app with Amplify Gen 2.</p>
+          <p>Explore services we provide..</p>
         </a>
 
         <a
-          href="https://docs.amplify.aws/gen2/build-a-backend/auth/set-up-auth/"
+          href="https://www.facebook.com/p/super-cleaning-janatorial-service-100064139251497/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Auth <span>-&gt;</span>
-          </h2>
-          <p>Zero-config Auth UI components with social sign-in and MFA.</p>
-        </a>
-
-        <a
-          href="https://docs.amplify.aws/gen2/build-a-backend/data/set-up-data/"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Data <span>-&gt;</span>
+            Contact <span>-&gt;</span>
           </h2>
           <p>
-            Fully-typed real-time API with NoSQL database.
+            Contact us for more details.
           </p>
         </a>
       </div>
